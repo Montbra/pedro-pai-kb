@@ -1,6 +1,6 @@
 
 >[!info]
->Obsidian is a powerful **knowledge base** on ***top of a  local folder*** of plain text Markdown files.
+>Obsidian is a powerful **knowledge base** on ***top of a  local folder*** of plain text _Markdown_ files.
 
 \- José Henrique, 2023
 
