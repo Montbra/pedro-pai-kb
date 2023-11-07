@@ -4,55 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f5bf7f7496fc1dec",
+        "id": "1089c42122729870",
         "type": "tabs",
         "children": [
           {
-            "id": "9a0f717e11b76c4a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "5739be26e86d7115",
+            "id": "d208ba20bc522ddd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fetch API.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0fc41b69d9c20d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bedc99c43ac475fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian.md",
+                "file": "2023-10-24.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "2023-10-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "2023-10-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "2023-10-24.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -185,13 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a0f717e11b76c4a",
+  "active": "d208ba20bc522ddd",
   "lastOpenFiles": [
-    "Fetch API.md",
     "Obsidian.md",
-    "Three laws of motion.md",
+    "Fetch API.md",
     "Law of Inertia.md",
+    "2023-10-24.md",
     "Untitled.canvas",
-    "2023-10-24.md"
+    "Three laws of motion.md"
   ]
 }
