@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1089c42122729870",
+        "id": "57fd83a6097d7e78",
         "type": "tabs",
         "children": [
           {
-            "id": "d208ba20bc522ddd",
+            "id": "bf992c2e6fbe3a99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-10-24.md",
+                "file": "test/Test note.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-10-24.md",
+                "file": "test/Test note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-10-24.md",
+                "file": "test/Test note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,17 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-10-24.md"
+                "file": "test/Test note.md"
               }
+            }
+          },
+          {
+            "id": "9c3ab86a3bdce40b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,12 +154,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d208ba20bc522ddd",
+  "active": "bf992c2e6fbe3a99",
   "lastOpenFiles": [
+    "Untitled.md",
+    "test/Test note.md",
+    "test",
+    "2023-10-24.md",
     "Obsidian.md",
     "Fetch API.md",
     "Law of Inertia.md",
-    "2023-10-24.md",
     "Untitled.canvas",
     "Three laws of motion.md"
   ]
