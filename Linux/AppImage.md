@@ -3,17 +3,23 @@ Preferencialmente criar novo diretório
 
 _`${HOME}/AppImages`_
 
-Criar um arquivo app.desktop em `${home}/.local/share/applications`. Ex com Minecraft:
+Criar um arquivo app.desktop em `${home}/.local/share/applications`. Ex com Obsidian:
 
 ```
 [Desktop Entry]
-Type=Application
-Name=Obsidian
-Comment=Obsidia
+Comment=
+Exec=/home/henrique/AppImages/Obsidian-1.4.16.appimage
+GenericName=Obsidian
 Icon=/home/henrique/AppImages/obsidian.png
-Exec=/home/bram/Applications/Minecraft/minecraft
+Name=Obsidian
+NoDisplay=false
+Path=
+StartupNotify=true
 Terminal=false
-Categories=Minecraft;game
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
 ```
 
 Ícones com problema? Extrai aquivo com:
