@@ -1,4 +1,4 @@
 
-`git config credential.helper`
+`git config credential.helper cache`
 
 Após esse comando, na próxima tentativa de comando que exija credencial, ela ficará salva para futuras utilizações. 
