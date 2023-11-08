@@ -1,6 +1,4 @@
 
-https://stackoverflow.com/questions/38709886/call-route-from-button-click-laravel
-
 Para redirecionar para uma outra página da sua aplicação com um button use a tag `<a>` (anchor) com classes de button e o método `url()` do Laravel conforme exemplo abaixo:
 
 ```html
@@ -19,3 +17,6 @@ When someone clicks in your button, the result will be:
 >`yourdomain.com/a-given-page/problems/{problem-id}/edit`
 When you would like to get this:
 >`yourdomain.com/problems/{problem-id}/edit`
+
+Referência:
+	https://stackoverflow.com/questions/38709886/call-route-from-button-click-laravel
