@@ -2,7 +2,9 @@
 Para redirecionar para uma outra página da sua aplicação com um button use a tag `<a>` (anchor) com classes de button e o método `url()` do Laravel conforme exemplo abaixo:
 
 ```html
-<a class="br-button secondary mr-3" href="{{ url('/') }}">Cancelar <i class="fas fa-stop"></i> </a>
+<a class="br-button secondary mr-3" href="{{ url('/') }}">
+	Cancelar <i class="fas fa-stop"></i> 
+</a>
 ```
 
 O link gerado terá aparência de button devido as classes e será capaz de redirecionar para a url fornecida.
