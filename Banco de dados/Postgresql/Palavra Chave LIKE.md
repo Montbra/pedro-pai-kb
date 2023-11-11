@@ -12,7 +12,7 @@ No exemplo acima estamos mostrando todas as colunas (denotadas pelo wildcard `*`
 	name like '%Tennis%';
 ```
 
-Como podemos ver, estamos filtrando por todas as entidades na table desejada (esta que contém uma coluna chamada `name`), e além disso, o filtro somente está selecionando as entidade que possuem a palavra `%Tennis%`, como valor para a coluna `name`.
+Como podemos ver, estamos filtrando por todas as entidades na table desejada (esta que contém uma coluna chamada `name`), e o filtro somente está selecionando as entidade que possuem a palavra `%Tennis%`, como valor para a coluna `name`.
 É necessário, porém, ter atenção especial com os caracteres `%` utilizados no começo e no final da palavra, eles não significam literalmente o sinal de porcentagem, mas sim, wildcards, abaixo segue uma explicação sobre o que são e o que representam.
 
 >[!info]
