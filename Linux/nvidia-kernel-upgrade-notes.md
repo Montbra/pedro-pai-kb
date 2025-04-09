@@ -69,3 +69,29 @@ After upgrading to the NVIDIA 570.133.07 drivers, the system would not function 
    journalctl -b | grep -i nvidia
    dmesg | grep -i nvidia
    ```
+
+## Kernel 6.14 Test Results (2025-04-09)
+
+**Test:**
+- Rebooted system and selected kernel `6.14.0-1.1.x86_64` from GRUB menu.
+- NVIDIA driver version: `570.133.07`
+- Display server: Wayland
+
+**Outcome:**
+- As expected, the GUI (KDE Plasma) failed to load, dropping the system to TTY.
+
+**Log Analysis (`journalctl -b 0`):**
+- Key errors originated from `kwin_wayland`:
+  ```
+  kwin_scene_opengl: Invalid framebuffer status: "GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT"
+  kwin_wayland_drm: Failed to create framebuffer: Invalid argument
+  ```
+- Further investigation using `ls /lib/modules/6.14.0-1.1.x86_64/updates/nvidia.ko` revealed that the NVIDIA kernel module (`nvidia.ko`) was **not** built or installed for kernel 6.14.0-1.1. This is the root cause of the GUI failure.
+
+**Driver Availability Check:**
+- `zypper info nvidia-driver-G06-kmp-default` confirmed that `570.133.07` is the latest version available in the configured `repo-non-free`. No newer driver is currently available via standard repositories.
+
+**Conclusion & Decision:**
+- The NVIDIA driver `570.133.07` is incompatible with kernel `6.14.0-1.1` on this system, primarily because the required kernel module failed to build.
+- The necessary kernel and NVIDIA packages have been locked using `zypper addlock` (as confirmed by the user) to maintain the stable configuration (Kernel 6.13.8 + NVIDIA 570.133.07).
+- Will wait for a future NVIDIA driver release that officially supports kernel 6.14+ on openSUSE Tumbleweed before attempting to upgrade the kernel again.
