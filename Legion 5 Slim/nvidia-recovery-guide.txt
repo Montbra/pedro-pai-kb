@@ -1,0 +1,60 @@
+# NVIDIA Driver Recovery Guide
+
+If your system fails to boot properly after the NVIDIA driver update, follow these steps:
+
+## Boot into text mode:
+1. At the GRUB boot menu, press 'e' to edit the boot entry
+2. Find the line that starts with 'linux' and add '3' or 'systemd.unit=multi-user.target' at the end
+3. Press F10 or Ctrl+X to boot
+
+## Remove problematic NVIDIA drivers:
+```bash
+sudo zypper remove --force-resolution 'nvidia-*'
+sudo rm -f /etc/X11/xorg.conf.d/*nvidia*
+```
+
+## Reinstall the previous working driver version:
+```bash
+# For the 550.144.03 version:
+sudo zypper install nvidia-drivers-G06-550.144.03
+```
+
+## If you need to use the basic video driver temporarily:
+```bash
+sudo mv /etc/X11/xorg.conf /etc/X11/xorg.conf.backup
+echo 'Section "Device"
+    Identifier "Fallback Device"
+    Driver "fbdev"
+EndSection' | sudo tee /etc/X11/xorg.conf.d/00-fbdev.conf
+```
+
+## Reboot:
+```bash
+sudo reboot
+```
+
+## Current driver information:
+- Main NVIDIA driver (G06): version 550.144.03
+- Some NVIDIA utilities: version 570.86.16
+- GPU: NVIDIA GeForce RTX 4070
+
+## Original fix plan:
+1. Unlock NVIDIA packages:
+```bash
+sudo zypper removelock $(zypper locks | grep nvidia | awk -F'|' '{print $2}')
+```
+
+2. Remove current drivers:
+```bash
+sudo zypper remove 'nvidia-*'
+```
+
+3. Install fresh drivers:
+```bash
+sudo zypper install nvidia-drivers-G06
+```
+
+4. Reboot:
+```bash
+sudo reboot
+```
