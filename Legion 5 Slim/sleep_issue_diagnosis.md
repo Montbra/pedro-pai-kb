@@ -61,7 +61,7 @@ abr 06 23:41:39 ostw-1 kwin_wayland[2415]: kwin_scene_opengl: 0x502: GL_INVALID_
 
 ## Implementation Status
 
-- [ ] Changed sleep mode to "deep"
+- [x] Changed sleep mode to "deep"
 - [ ] Improved NVIDIA power management
 - [ ] Adjusted automatic suspend settings
 - [ ] Checked for BIOS updates
