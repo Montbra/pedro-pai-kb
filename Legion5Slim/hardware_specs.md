@@ -21,12 +21,12 @@ This document provides a comprehensive overview of the hardware and software con
   - L3: 16 MiB (1 instance)
 
 ### Memory
-- **RAM**: 28 GB (27.21 GiB usable)
-- **Swap**: 27.21 GiB (zram)
+- **RAM**: 30 GB (29.3 GiB usable)
+- **Swap**: 30.7 GiB (zram)
 
 ### Graphics
 - **Discrete GPU**: NVIDIA GeForce RTX 4070 Max-Q / Mobile (AD106M)
-  - Driver: NVIDIA v570.133.07
+  - Driver: NVIDIA v570.144
   - Architecture: Lovelace
   - PCIe: 2.5 GT/s (8 lanes)
   
@@ -105,7 +105,7 @@ This document provides a comprehensive overview of the hardware and software con
 
 ### Operating System
 - **Distribution**: openSUSE Tumbleweed
-- **Version**: 20250403
+- **Version**: 20250505
 - **Kernel**: 6.13.8-1-default
 
 ### Desktop Environment
@@ -116,12 +116,12 @@ This document provides a comprehensive overview of the hardware and software con
 
 ### Graphics Configuration
 - **Current Renderer**: AMD Radeon Graphics (amdgpu driver)
-- **NVIDIA Driver**: 570.133.07 (installed)
-- **OpenGL**: v4.6.0 (AMD Mesa 25.0.2)
+- **NVIDIA Driver**: 570.144 (installed)
+- **OpenGL**: v4.6.0 (AMD Mesa 25.0.5)
 - **Vulkan**: v1.4.309
 
 ### Audio Configuration
-- **Audio Server**: PipeWire 1.4.1
+- **Audio Server**: PipeWire 1.4.2
   - pipewire-pulse (active)
   - wireplumber (active)
   - pipewire-alsa (plugin)
@@ -162,7 +162,7 @@ This document provides a comprehensive overview of the hardware and software con
 - Check Lenovo support site for updates: https://support.lenovo.com/
 
 ### Driver Information
-- NVIDIA driver: 570.133.07
+- NVIDIA driver: 570.144
 - AMD graphics driver: kernel amdgpu
 - Wi-Fi driver: mt7921e (kernel)
 - Bluetooth driver: btusb v0.8
