@@ -1,1 +1,2 @@
--
+- [[IA/README|IA — Índice]]: Pesquisas sobre monetização, moats e estratégia de conteúdo de IA
+- [[Ferramentas/README|Ferramentas — Índice]]: Comparativos de memória para agentes, modelos, infra
