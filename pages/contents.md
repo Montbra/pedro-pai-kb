@@ -1,5 +1,6 @@
 - [[IA/README|IA — Índice]]: Pesquisas sobre monetização, moats e estratégia de conteúdo de IA
 - [[Ferramentas/README|Ferramentas — Índice]]: Comparativos de memória para agentes, modelos, infra
 - [[Linux/README|Linux — Índice]]: Troubleshooting NVIDIA/GPU, WiFi, Audio, IBus, Sistema (27 notas organizadas)
-- [[Projetos/README|Projetos — Índice]]: Bitcoin, Lightning
+- [[Projetos/README|Projetos — Índice]]: Bitcoin, Lightning, Octopus Invaders
 - [[Pesquisas/README|Pesquisas — Índice]]: Mercado, aluguel
+- [[Desenvolvimento/README|Desenvolvimento — Índice]]: Laravel Filament, melhores práticas

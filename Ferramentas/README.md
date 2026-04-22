@@ -5,6 +5,7 @@ Recursos, comparativos e guias sobre ferramentas e sistemas disponíveis.
 ## Conteúdo
 
 - [[Sistemas de Memória para Agentes de IA - Comparativo]] — Comparativo entre Holographic, Honcho, OpenViking, Hindsight, Mem0 e outros
+- [[Arquitetia Híbrida Cloud Local IA]] — Cloud (estratégia) + Local Qwen (execução) via Ollama
 
 ## Próximos Passos
 
