@@ -6,12 +6,12 @@ Documentação técnica de troubleshooting e configuração do sistema.
 
 ## Seções
 
-- [[NVIDIA/README|NVIDIA & GPU]] — Drivers, crashes, GPU híbrida, CUDA (9 notas)
+- [[NVIDIA/README|NVIDIA & GPU]] — Drivers, crashes, GPU híbrida, CUDA (14 notas)
 - [[Audio/README|Audio]] — Troubleshooting de áudio para jogos
 - [[WiFi/README|WiFi]] — Fix de desconexão e power save (MediaTek MT7922)
 - [[Input/README|Input & IBus]] — Configuração de input no Wayland/KDE
-- [[Sistema/README|Sistema]] — zypper, btrfs, xdg, sshfs, health checks
-- [[Hardware/README|Hardware]] — Relatórios de RAM e baseline do sistema
+- [[Sistema/README|Sistema]] — zypper, btrfs, xdg, sshfs, health, shutdown, VM (9 notas)
+- [[Hardware/README|Hardware]] — Relatórios de RAM, baseline, specs do Legion (3 notas)
 
 ## Notas Existentes (antigas)
 

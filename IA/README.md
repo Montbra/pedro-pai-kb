@@ -14,6 +14,11 @@ Pesquisas, análises e estratégias sobre Inteligência Artificial.
 - [ ] Estratégia de conteúdo: calendário editorial
 - [ ] Templates de threads técnicas para IA
 
+## Ver Também
+
+- [[../Ferramentas/README|Ferramentas]] — Modelos, infra, memória para agentes
+- [[../prompt-engineering|Prompt Engineering]] — Guia de prompt engineering
+
 ---
 
 **Tags:** #ia #índice

@@ -19,6 +19,11 @@ Problemas e soluções de GPU no Lenovo Legion Slim 5 (RTX 4070 Mobile + AMD Rad
 - [[NVIDIA Driver 580 CUDA Init Failure]] — Bug report driver 580
 - [[Mesa Downgrade Analysis]] — Freeze por Mesa, análise de downgrade
 - [[Kernel Update NVIDIA Driver 2025-08]] — Problema pós-update de kernel
+- [[Legion5 NVIDIA Kernel Upgrade Notes]] — Notas de upgrade de kernel no Legion
+- [[Legion5 NVIDIA Boot Issue]] — Boot issue com NVIDIA no Legion
+- [[Legion5 NVIDIA Secure Boot Setup]] — Secure Boot + NVIDIA driver
+- [[Legion5 Display Disconnect Fix]] — Display desconectando ao usar TV 4K
+- [[Legion5 Steam HiDPI 4K TV]] — Steam em TV 4K HiDPI
 
 ## Ver Também
 
